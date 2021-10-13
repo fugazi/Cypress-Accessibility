@@ -1,0 +1,21 @@
+{
+  "name": "cypress-accessibility",
+  "version": "1.0.0",
+  "description": "Test Automation for Accessibility",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run spec",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "accessibility",
+    "automation"
+  ],
+  "author": "Douglas Fugazi - https://douglasfugazi.co",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^8.6.0",
+    "cypress-axe": "^0.13.0"
+  }
+}
